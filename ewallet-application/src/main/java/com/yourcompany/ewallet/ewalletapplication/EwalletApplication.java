@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EwalletApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(EwalletApplication.class, args);
+		System.out.println("This is feature branch");
 	}
 
 }
